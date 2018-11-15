@@ -61,7 +61,6 @@ func (c *Client) do(method, resource, payload string, result interface{}) (resp 
 
 	// Process response
 	if resp != nil {
-		//decoder := json.NewDecoder(resp.Body)
 		decoder := json.NewDecoder(resp.Body)
 		err = decoder.Decode(result)
 	}
