@@ -13,4 +13,4 @@ test: get_dep
 
 .PHONY: lint
 lint:
-	@gofmt -s -w .
+	@gofmt -s -w coindesk
