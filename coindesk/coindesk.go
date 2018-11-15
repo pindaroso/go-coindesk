@@ -1,14 +1,14 @@
 package coindesk
 
 const (
-    BaseUrl = "https://production.api.coindesk.com/v1"
+	BaseUrl = "https://production.api.coindesk.com/v1"
 )
 
 type Coindesk struct {
-    client *Client
+	client *Client
 }
 
 func New() *Coindesk {
-    client := NewClient()
-    return &Coindesk{client}
+	client := NewClient()
+	return &Coindesk{client}
 }

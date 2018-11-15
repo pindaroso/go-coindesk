@@ -1,20 +1,20 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 
-    "github.com/go-coindesk/coindesk"
+	"github.com/go-coindesk/coindesk"
 )
 
 func main() {
-    client := coindesk.New()
+	client := coindesk.New()
 
-    q := coindesk.CurrencyQuery{StartDate: "2018-11-14", EndDate: "2018-11-15", Interval: "120-min", Convert: "USD"}
-    currency, err := client.GetCurrencyAll(q)
+	q := coindesk.CurrencyQuery{StartDate: "2018-11-14", EndDate: "2018-11-15", Interval: "120-min", Convert: "USD"}
+	currency, err := client.GetCurrencyAll(q)
 
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 
-    fmt.Println(currency.Data)
+	fmt.Println(currency.Data)
 }
