@@ -65,6 +65,6 @@ See `examples/depth.go`.
 
 ### TODO
 
+- [ ] Add remaining routes e.g. `/v1/currency/{symbol}/score/graph` and `/v1/currency/{symbol}/ticker`
 - [ ] Add CI/CD
 - [ ] Improve test coverage
-- [ ] Add remaining routes e.g. `/v1/currency/{symbol}/score/graph` and `/v1/currency/{symbol}/ticker`
