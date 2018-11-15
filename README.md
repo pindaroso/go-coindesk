@@ -61,4 +61,10 @@ func main() {
 
 ### Local Depth Cache
 
-See `examples/depth.go`. Script connects to Coindesk websocket and maintains a simple local depth cache.
+See `examples/depth.go`.
+
+### TODO
+
+- [ ] Add CI/CD
+- [ ] Improve test coverage
+- [ ] Add remaining routes e.g. `/v1/currency/{symbol}/score/graph` and `/v1/currency/{symbol}/ticker`
