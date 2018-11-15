@@ -6,4 +6,3 @@ go:
 
 script:
   - make
-  - if [[ ! $TRAVIS_GO_VERSION =~ ^1\.(7|8|9)\.[x0-9]+$ ]]; then make staticcheck; fi

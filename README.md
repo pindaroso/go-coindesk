@@ -1,8 +1,11 @@
 # Go Coindesk API
 
-![CoinDesk](https://img.shields.io/badge/docs-GoDoc-ff69b4.svg?style=flat-square)
-[![Travis Branch](https://img.shields.io/travis/pindaroso/go-coindesk.svg?style=flat-square)](https://travis-ci.org/pindaroso.go-coindesk)
-[![OpenCode](https://img.shields.io/badge/Open-Code-ff6a00.svg?style=flat-square)](https://opencode18.github.io)
+[![GoDoc](https://godoc.org/github.com/google/go-github/github?status.svg)](https://godoc.org/github.com/google/go-github/github)
+[![Travis Branch](https://img.shields.io/travis/pindaroso/go-coindesk.svg?style=flat-square)](https://travis-ci.org/pindaroso/go-coindesk.svg?branch=master)
+[![GoReport Widget]][GoReport Status]
+
+[GoReport Status]: https://goreportcard.com/report/github.com/pindaroso/go-coindesk
+[GoReport Widget]: https://goreportcard.com/badge/github.com/pindaroso/go-coindesk
 
 ## Summary
 
