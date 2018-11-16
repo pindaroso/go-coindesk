@@ -5,8 +5,8 @@ import (
 )
 
 // Get Exchange Rates
-func (c *Coindesk) GetExchangeRates() (exchangeRatesResp ExchangeRatesResp, err error) {
+func (c *Coindesk) GetExchangeRates() (exchangeRates ExchangeRates, err error) {
 	reqUrl := fmt.Sprintf("exchangerates")
-	_, err = c.client.do("GET", reqUrl, "", &exchangeRatesResp)
+	_, err = c.client.do("GET", reqUrl, "", &exchangeRates)
 	return
 }

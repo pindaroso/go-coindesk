@@ -1,13 +1,5 @@
 package coindesk
 
-type CurrencyAllResp struct {
-	Data      CurrencyAll `json:"data"`
-	Error     bool        `json:"error"`
-	Message   string      `json:"message"`
-	Status    int         `json:"status"`
-	Timestamp string      `json:"timestamp"`
-}
-
 // Result from: GET /api/v1/currency/all
 type CurrencyAll struct {
 	CoindeskMarketCap CoindeskMarketCap          `json:"coindeskMarketCap"`

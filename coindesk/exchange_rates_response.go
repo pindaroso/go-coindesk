@@ -1,13 +1,5 @@
 package coindesk
 
-type ExchangeRatesResp struct {
-	Data      ExchangeRates `json:"data"`
-	Error     bool          `json:"error"`
-	Message   string        `json:"message"`
-	Status    int           `json:"status"`
-	Timestamp string        `json:"timestamp"`
-}
-
 // Result from: GET /api/v1/exchangerates
 type ExchangeRates struct {
 	BaseCurrency Currency `json:"baseCurrency"`

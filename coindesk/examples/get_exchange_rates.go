@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/go-coindesk/coindesk"
+	"github.com/pindaroso/go-coindesk/coindesk"
 )
 
 func main() {
@@ -14,9 +14,9 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println(exchangeRates.Data.BaseCurrency)
+	fmt.Println(exchangeRates.BaseCurrency)
 
-	for _, e := range exchangeRates.Data.Rates {
+	for _, e := range exchangeRates.Rates {
 		fmt.Println(e)
 	}
 }
