@@ -61,7 +61,3 @@ func main() {
     }
 }
 ```
-
-### Local Depth Cache
-
-See `examples/depth.go`.
